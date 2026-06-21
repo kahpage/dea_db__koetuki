@@ -193,6 +193,7 @@ if __name__ == "__main__":
     ]
     links = [
         "https://web.archive.org/web/20131207035956/http://vocaloid-fantasia.com/koetuki/",
+        "https://x.com/konokoetuki",
     ]
 
     event_group = EventGroup(
