@@ -67,10 +67,10 @@ def retrieve_circles(event_name: str) -> list[Circle]:
 
 if __name__ == "__main__":
     events: list[Event] = []
-    active_events: list[int | str] = list(range(1, 14 + 1))
+    disabled_events: list[int | str] = []
 
     i = 1  # ==== koetuki1 ====
-    if i in active_events:
+    if i not in disabled_events:
         event_name = f"koetuki{i}"
         print(f"Processing {event_name} ...")
 
